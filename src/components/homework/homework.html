@@ -13,6 +13,7 @@
           <div class="nav nav-tabs nav-fill" id="homework" role="tablist">
             <a class="nav-item nav-link font-weight-bold active" data-toggle="tab" href="#hw1">Tarea 1</a>
             <a class="nav-item nav-link font-weight-bold" data-toggle="tab" href="#hw2">Tarea 2</a>
+            <a class="nav-item nav-link font-weight-bold" data-toggle="tab" href="#hw3" onclick ="loadCalendar()">Tarea 3</a>
           </div>
         </nav>
         <div class="tab-content  px-3 border border-top-0 rounded-lg" id="nav-tabContent">
@@ -25,6 +26,12 @@
               <h5 class="text-center mt-2">Becoming a Full WEB Stack Dev</h5>
               <iframe class="rounded m-3" src="src/assets/documents/bec-fs-web-dev.pdf" width="700px"
                 height="800px"></iframe>
+            </ul>
+          </div>
+          <div class="tab-pane fade px-2" id="hw3">
+            <ul class="pl-1 pb-2 list-group">
+              <h5 class="text-center my-2 pb-2">Calendario</h5>
+              <div  class = "border rounded" render-component="src/components/calendario/calendario.html"></div>
             </ul>
           </div>
         </div>
