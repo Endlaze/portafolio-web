@@ -19,16 +19,18 @@
     <script type="text/javascript" src="src/components/calendario/calendario.js"></script></script>
   </head>
   <body>
-    <section>
+    
       <div id="course" render-component="src/components/navbar/navbar.html"></div>
       <section>
-        <div class="border-top border-light" render-component="src/components/course-info/course-info.html"></div>
+        <div class="border-top border-light mt-5" render-component="src/components/course-info/course-info.html"></div>
         <div render-component="src/components/personal-info/personal-info.html"></div>
         <div id="homework" render-component="src/components/homework/homework.html"></div>
         <div id="labs" render-component="src/components/labs/labs.html"></div>
         <div id="apuntes" render-component="src/components/apuntes/apuntes.html"></div>
+        <div id="inv" render-component="src/components/investigaciones/investigaciones.html"></div>
+        <div id="proy" render-component="src/components/proyectos/proyectos.html"></div>
       </section>  
-    </section>
+    
     <script>includeHTML();</script>
   </body>
 </html>
